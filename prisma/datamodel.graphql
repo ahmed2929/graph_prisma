@@ -1,0 +1,17 @@
+type User {
+  id: ID! @id
+  userName:String! @unique
+  reviews:[!review]
+}
+
+type review{
+  id:ID! @id
+  star:!Int
+  comment:String
+}
+
+type item{
+  id:ID! @id
+  title:!String
+  reviews:[!review]
+}

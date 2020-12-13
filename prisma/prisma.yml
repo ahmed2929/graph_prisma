@@ -1,0 +1,2 @@
+endpoint: http://localhost:4466/review/defualt
+datamodel: datamodel.graphql
